@@ -45,7 +45,6 @@ ul {
 }
 
 /*header*/
-
 .site-nav {
     font-family: 'Roboto';
     font-weight: 500;
@@ -76,70 +75,35 @@ ul {
 }
 
 /*кнопки*/
+/*внопка на сторінці студія*/
 .button-hat {
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-
+  background: #2196F3;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-
-  /* identical to box height, or 188% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.button-hat:hover
-.button-hat:focus {
-  position: absolute;
-  visibility: hidden;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-}
-
-.button {
   color: var(--color-text-white);
-  background-color: var(--color-button-accent);
 }
 
-.button-list {
+.button-hat:hover,
+.button-hat:focus {
+  background-color: #188CE8; 
+}
+
+/*кнопки на сторінці портфоліо*/
+.button-portfolio {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: var(--color-button-accent);
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 512px;
-  top: 174px;
-}
-
-.button.primery {
   color: var(--color-text-white);
   background-color: var(--color-button-accent);
 }
 
-.button.secondary {
-  color: var(--primary-text-color);
-  background-color: var(--color-secondary);
-}
 
 /*стилізація секцій*/
 
