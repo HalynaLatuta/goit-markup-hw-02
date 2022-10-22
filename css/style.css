@@ -17,7 +17,8 @@
 }
 body {
   background-color: var(--primary-bg-color);
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto';
+  font-style: normal;
   color: var(--primary-text-color);
 }
 
@@ -31,8 +32,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
 }
 
 .logo-last-part {
@@ -114,7 +113,6 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  
 }
 
 /*стилізація about futures*/
@@ -137,9 +135,6 @@ ul {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 24px;
-  
-  /* or 171% */
-  letter-spacing: 0.03em;
 }
 
 .wedo-title.team-title {
@@ -148,8 +143,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*стилізацція our team*/
@@ -164,10 +157,6 @@ ul {
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 19px;
-  
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*стилізація портфоліо*/
@@ -176,9 +165,6 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  
-  /* identical to box height, or 200% */
-  letter-spacing: 0.06em;
 }
 
 .filtr-portfolio {
@@ -186,9 +172,6 @@ ul {
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 30px;
-
-  /* identical to box height, or 188% */
-  letter-spacing: 0.03em;
 }
 
 /*стилізація footer*/
@@ -198,9 +181,6 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  
-  /* or 171% */
-  letter-spacing: 0.03em;
 }
 
 .footer-tel {
@@ -209,7 +189,4 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  
-  /* or 171% */
-  letter-spacing: 0.03em;
 }
