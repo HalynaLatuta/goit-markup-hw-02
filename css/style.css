@@ -21,11 +21,13 @@ body {
   color: var(--primary-text-color);
 }
 
+a {
+  text-decoration: none;
+}
 /* style logo */
 .logo {
   color: var(--color-button-accent);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -46,7 +48,6 @@ ul {
 
 .site-nav {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -59,7 +60,6 @@ ul {
 
 .header-link {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -76,6 +76,35 @@ ul {
 }
 
 /*кнопки*/
+.button-hat {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button-hat:hover
+.button-hat:focus {
+  position: absolute;
+  visibility: hidden;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+}
+
 .button {
   color: var(--color-text-white);
   background-color: var(--color-button-accent);
@@ -83,7 +112,6 @@ ul {
 
 .button-list {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -91,6 +119,16 @@ ul {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--color-button-accent);
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 512px;
+  top: 174px;
 }
 
 .button.primery {
@@ -103,35 +141,29 @@ ul {
   background-color: var(--color-secondary);
 }
 
-.pointer {
-  cursor: pointer;
-}
 /*стилізація секцій*/
 
-.section-titel-big{
+.section-title-big{
   color: var(--color-text-white);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   
-    /* or 136% */
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*стилізація about futures*/
-.titel-none {
+.title-none {
   display: none;
 }
 
-.feature-titel {
+.feature-title {
   color: var(--primary-text-color);
-  
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -139,11 +171,9 @@ ul {
   text-transform: uppercase;
 }
 
-.text-feature {
+.text-features {
   color: var(--secont-text-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   
@@ -151,11 +181,9 @@ ul {
   letter-spacing: 0.03em;
 }
 
-
-.section-wedo.section-team {
+.wedo-title.team-title {
   color: var(--primary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -166,7 +194,6 @@ ul {
 /*стилізацція our team*/
 .name {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -178,8 +205,6 @@ ul {
 
 .position {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   
@@ -191,7 +216,6 @@ ul {
 /*стилізація портфоліо*/
 .photo-portfolio {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -201,9 +225,8 @@ ul {
 }
 
 .filtr-portfolio {
+  color: var(--secont-text-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 
@@ -219,7 +242,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
+  
   /* or 171% */
   letter-spacing: 0.03em;
 }
@@ -231,5 +254,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
+  
+  /* or 171% */
+  letter-spacing: 0.03em;
 }
