@@ -211,11 +211,15 @@ ul {
 
 /*стилізація footer*/
 .adress-footer {
-  color: var(--color-text-white);
+  color: var(--color-text-white); 
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 
 .footer-tel {
@@ -238,7 +242,11 @@ ul {
   color: var(--color-text-white);
 }
 
-.footer-link:hover 
-.footer-link:focus {
+.adress-footer:hover 
+.adress-footer:focus {
   color: var(--color-button-accent);
 }
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--color-button-accent);
