@@ -162,7 +162,7 @@ ul {
 }
 
 .our-team-list {
-  background-color: #FFFFFF;
+  background-color: var(--color-text-white);
 }
 
 .team-title {
@@ -201,7 +201,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.titel-list-portfolio {
+.title-list-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -220,11 +220,15 @@ ul {
 }
 
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);  
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 
 .footer-all {
