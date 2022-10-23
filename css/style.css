@@ -85,11 +85,13 @@ ul {
 
 .button-hat {
   background-color: #2196F3;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   color: var(--color-text-white);
   text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
@@ -101,9 +103,16 @@ ul {
 
 /*кнопки на сторінці портфоліо*/
 .button-portfolio {
+  color: var(--primary-text-color);
+  background-color: var(--color-secondary);
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
