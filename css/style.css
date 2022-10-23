@@ -19,7 +19,6 @@
 body {
   background-color: var(--primary-bg-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   color: var(--primary-text-color);
 }
 
@@ -227,14 +226,19 @@ ul {
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-
   letter-spacing: 0.03em;
 }
 
 .footer-all {
   background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
 
 .logo-footer-part {
   color: var(--color-text-white);
+}
+
+.footer-link:hover 
+.footer-link:focus {
+  color: var(--color-button-accent);
 }
