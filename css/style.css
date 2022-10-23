@@ -61,6 +61,7 @@ ul {
 }
 
 .header-link {
+  color: var(--secont-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -235,7 +236,6 @@ ul {
 
 .footer-all {
   background-color: var(--secondary-bg-color);
-  cursor: pointer;
 }
 
 .logo-footer-part {
