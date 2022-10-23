@@ -9,7 +9,8 @@
 :root {
   --primary-text-color: #212121;
   --secont-text-color: #757575;
-  --primary-bg-color: #F5F5F5;
+  --primary-bg-color: #FFFFFF;
+  --secondary-bg-color: #2F303A;
   --color-button-accent:#2196F3;
   --color-secondary:#F5F4FA;
   --color-text-white:#FFFFFF;
@@ -17,7 +18,7 @@
 }
 body {
   background-color: var(--primary-bg-color);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--primary-text-color);
 }
@@ -25,6 +26,7 @@ body {
 a {
   text-decoration: none;
 }
+
 /* style logo */
 .logo {
   color: var(--color-button-accent);
@@ -45,7 +47,6 @@ ul {
 
 /*header*/
 .site-nav {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -54,10 +55,13 @@ ul {
 
 .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .header-link {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -73,16 +77,20 @@ ul {
   color: var(--color-button-accent);
 }
 
+.hat {
+  background-color: var(--secondary-bg-color);
+}
 /*кнопки*/
 /*внопка на сторінці студія*/
 
 .button-hat {
   background-color: #2196F3;
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   color: var(--color-text-white);
+  text-align: center;
+  cursor: pointer;
 }
 
 .button-hat:hover,
@@ -93,10 +101,10 @@ ul {
 
 /*кнопки на сторінці портфоліо*/
 .button-portfolio {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
@@ -109,20 +117,22 @@ ul {
 
 .section-title-big{
   color: var(--color-text-white);
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*стилізація about futures*/
+
 .title-none {
   display: none;
 }
 
 .feature-title {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -132,36 +142,50 @@ ul {
 
 .text-features {
   color: var(--secont-text-color);
-  font-family: 'Roboto';
   font-size: 14px;
   line-height: 24px;
 }
 
-.wedo-title.team-title {
+.wedo-title {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*стилізацція our team*/
+
+.section-team {
+  background-color: var(--color-secondary);
+}
+
+.our-team-list {
+  background-color: #FFFFFF;
+}
+
+.team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .name {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 
 .position {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 19px;
 }
 
 /*стилізація портфоліо*/
 .photo-portfolio {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -169,15 +193,27 @@ ul {
 
 .filtr-portfolio {
   color: var(--secont-text-color);
-  font-family: 'Roboto';
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+}
+
+.titel-list-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  
+  letter-spacing: 0.06em;
 }
 
 /*стилізація footer*/
 .adress-footer {
   color: var(--color-text-white);
-  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -185,8 +221,16 @@ ul {
 
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+
+.footer-all {
+  background-color: var(--secondary-bg-color);
+}
+
+.logo-footer-part {
+  color: var(--color-text-white);
 }
